@@ -2,7 +2,7 @@
 
 * Студент: [Алёна Малищук](https://up.htmlacademy.ru/htmlcss/25/user/976477).
 * Наставник: [Данила Прокопенко](https://up.htmlacademy.ru/htmlcss/25/user/324297) ---
-qq
+
 Доработка задания
 длд
 mkjn
