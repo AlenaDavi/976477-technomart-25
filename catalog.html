@@ -36,7 +36,7 @@
       <ul> 
         <li><a href='index.html'>Главная</a></li>
         <li><a href="company.html">Компания</a></li>
-        <!-- <li><a href="price.html">Каталог</a></li> -->
+        <li><a>Каталог</a></li>
         <li><a href='news.html'>Новости</a></li>
         <li><a href="sentence.html">Спецпредложения</a></li>
         <li><a href="delivery.html">Доставка</a></li>
@@ -45,10 +45,25 @@
     </nav>
   </header>
 <main>
+           <!--  ===========form============== -->
+          <form class='order-form' action="https://echo.htmlacademy.ru" method="post">
+            <section class="basket">
+              <form class="basket-form" action="https://echo.htmlacademy.ru" method="post">
+                <p class="basket-item">
+                  <label for='order-form'>Товар добавлен в корзину</label>
+                  <input type='text' name='basket' id='basket-order' value="" placeholder="Оформить заказ">
+                </p>
+              </form>
+              <form class="basket-form" action="https://echo.htmlacademy.ru" method="post">
+                <p class="basket-item">
+                  <input type='text' name='basket' id='basket-order' value="" placeholder="Продолжить покупки">
+                </p>
+              </form>
+           </section>
                    <!--   ===============2===================== -->
       <ul clss='breadcrumbs'>
         <li><a href='index.html'></a></li> 
-        <li><a href='#'>Kаталог</a></li>
+        <li><a>Kаталог</a></li>
         <li><a href='#'>Инструмент</a></li>
         <li>Перфораторы</li>
       </ul>
@@ -195,6 +210,36 @@
               <a href='#'>Заблудились? НАПИШИТЕ НАМ!</a>
         </section>
     </main>
+                <!-- =============форма============ -->
+      <section class='order'></section>
+        <form class='order-form' action="https://echo.htmlacademy.ru" method="post">
+          <p class="order-item">
+            <label for='order-name'>Ваше имя</label>
+            <input type="text" name="name" id='order-name' value="" placeholder="Имя Фамилия">
+          </p>
+        </form>
+        <form class='order-form' action="https://echo.htmlacademy.ru" method="post">
+          <p class="order-item">
+            <label for='order-e-mail'>Ваш e-mail</label>
+            <input type="text" name="e-mail" id='order-e-mail' value="" placeholder="e-mail@example.com">
+          </p>
+        </form>
+        <form class='order-form' action="https://echo.htmlacademy.ru" method="post">
+          <p class="order-item">
+            <label for='order-text'>Текст письма:</label>
+            <input type="text" name="text" id='order-text' value="" placeholder="В свободной форме">
+          </p>
+        </form>
+        <button class="button" type="submit">Отправить</button>
+      </section>
+
+
+
+
+
+
+
+
 <!-- 
   =========================================FOOTER============================================== -->
     <footer class='main-footer'>
@@ -207,7 +252,7 @@
           <ul class='servis3'>
             <li><a href='#'>Компания</a></li>
             <li><a href='#'>Новости</a></li>
-            <li><a href='#'>Каталог</a></li>
+            <li><a='#'>Каталог</a></li>
             <li><a href='#'>Доставка</a></li>
             <li><a href='#'>Контакты</a></li>
           </ul>
@@ -227,7 +272,7 @@
         </section>
         <div class='footer-social'>
           <ul>
-            <li><a class='social-button' href='#'><span class="visually-hidden">Вконтакте</span><img src='img/vk-icon.svg' alt='Иконка Вконтакте' width="42px" height="42px"></a></li>
+            <li><a class='social-button' href='#'><span class="visually-hidden">Вконтакте</span></svg>img/vk-icon.svg</svg></a></li>
             <li><a class='social-button' href='#'><span class="visually-hidden">Фейсбук</span><img src='img/fb-icon.svg' alt='Иконка Фейсбук' width="12px" height="22px"></a></li>
             <li><a class='social-button' href='#'><span class="visually-hidden">Инстаграм</span><img src='img/insta-icon.svg' alt='Иконка Инстаграм' width="21px" height="21px"></a></li>
           </ul>
